@@ -52,7 +52,7 @@ export default class App extends Component {
   }
 
   render() {
-    const{  show } = this.state
+    const{ show } = this.state
     const contentShow = show ? <RandomChar/>  : null;
     const contentHide = show ? "Hide" : "Show";
     
